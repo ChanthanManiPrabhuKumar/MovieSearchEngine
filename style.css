@@ -1,0 +1,69 @@
+body{
+    background-repeat: no-repeat;
+    background:fixed;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,1)),url("https://us.123rf.com/450wm/liudmilachernetska/liudmilachernetska2301/liudmilachernetska230137032/197754827-flat-lay-composition-with-clapperboard-and-cinema-tickets-on-orange-background-space-for-text.jpg?ver=6");
+    height: 100vh;
+}
+.container-fluid h1{
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: rgb(238, 210, 175);
+    text-shadow: 2px 2px 4px black;
+}
+.container-fluid{
+    height:100%;
+    margin:0px;
+}
+.container{
+    border-style:dashed;
+    border-color: rgb(233, 178, 178);
+    border-radius: 25px;
+    margin-top: 40px;
+    color: white;
+    height: 100%;
+}
+.container .row{
+    margin: 30px auto ;
+}
+.col-lg-3{
+    border: 1px solid rgb(234, 232, 218);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-spacing: 5px;
+}
+#search-btn{
+    background: transparent;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    color: whitesmoke;
+    box-shadow: 2px 2px 4px rgb(133, 111, 111);
+}
+span{
+    position: absolute;
+    background: #0c0600;
+    width: 0%;
+    height: 100%;
+    border-radius: 20px;
+    left: 0;
+    bottom: 0;
+    z-index: -5;
+    transition: 0.5s;
+}
+#search-btn:hover span{
+    width: 100%;
+}
+#search-btn:hover{
+    border: none;
+}
+#topbar{
+    background: linear-gradient(45deg, rgb(233, 57, 57), rgb(212, 148, 29));
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
